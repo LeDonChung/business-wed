@@ -34,3 +34,8 @@ p {
     flex-wrap: wrap;
     margin: 0 -5px;
 }
+
+.grid__column-6 {
+    width: 50%;
+    padding: 0 50px;
+}
