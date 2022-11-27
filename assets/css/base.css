@@ -37,11 +37,8 @@ p {
 
 .grid__column-6 {
     width: 50%;
-    padding: 0 24px;   
-}
-.grid__column-3 {
-    width: 25%;
-    padding: 0 24px;   
+<<<<<<<<< Temporary merge branch 1
+    padding: 0 10px;   
 }
 /*header*/
 .header {
@@ -131,9 +128,7 @@ p {
     padding: 5px 15px;
     width: 100%;
 }
-
-.section__one{
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+=========
+    padding: 0 50px;
 }
-
+>>>>>>>>> Temporary merge branch 2
