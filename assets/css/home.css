@@ -1,0 +1,55 @@
+/*heading main*/
+.h-main {
+    background-color: var(--text-color);
+    padding: 100px 0;
+}
+
+.h-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h-content__title {
+    font-size: 5rem;
+    color: var(--while-color);
+    font-weight: 700;
+
+}
+
+.h-content__description {
+    font-size: 2rem;
+    color: var(--hint-color);
+    padding: 10px 0;
+}
+
+.h-content__button {
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.h-content__button-start {
+    margin-right: 24px;
+    background-color: #0d6efd;
+}
+
+.h-content__button-start:hover {
+    color: var(--while-color);
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.h-content__button-more {
+    background-color: transparent;
+    border: 1px solid var(--while-color);
+}
+.h-content__button-more:hover {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.h-img {
+    border-radius: 5px;
+}
