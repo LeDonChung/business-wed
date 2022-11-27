@@ -39,6 +39,10 @@ p {
     width: 50%;
     padding: 0 24px;   
 }
+.grid__column-3 {
+    width:25%;
+    padding: 0 24px;   
+}
 /*header*/
 .header {
     background-color: var(--text-color);

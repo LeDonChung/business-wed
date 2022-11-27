@@ -8,7 +8,7 @@
 .app__content {
     text-align: center;
     display: flex;
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .about-filter {
@@ -88,6 +88,12 @@
 
 .ab-team{
     background-color: #f8f9fa;
+    text-align: center;
+    display: block;
+}
+
+.ctent_title-team{
+    font-size: 3rem;
 }
 
 .grid__title{
@@ -99,7 +105,17 @@
     padding: 100px 0;
 }
 
-.grid__row-width {
+.ab-team__img {
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
 
+.ctent_title-team{
+
+}
+
+.ctent_subtitle-team{
+    font-style: italic;
 }
 
