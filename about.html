@@ -6,64 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About</title>
 </head>
 <body>
-    <div class="app">
-        <!-- <header class="header">
+    <div class="app"> 
+        <header class="header">
             <div class="grid">
                 <nav class="header__nav">
                     <a href="#" class="navbar-brand">Start Bootstrap</a>
                     <ul class="header__nav-list">
-                        <li class="hearder__nav-item">
-                            <a href="#" class="hearder__nav-item-link">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
                                 Home
                             </a>
                         </li>
-                        <li class="hearder__nav-item">
-                            <a href="#" class="hearder__nav-item-link">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
                                 About
                             </a>
                         </li>
-                        <li class="hearder__nav-item">
-                            <a href="#" class="hearder__nav-item-link">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
                                 Pricing 
                             </a>
                         </li>
-                        <li class="hearder__nav-item">
-                            <a href="#" class="hearder__nav-item-link">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
                                 FAQ
                             </a>
                         </li>  
-                        <li class="hearder__nav-item">
-                            <a href="#" class="hearder__nav-item-link">
+                        <li class="header__nav-item header__nav-item--blog">
+                            <a href="#" class="header__nav-item-link">
                                 Blog
+                                <i class="header__nav-item-icon fa-solid fa-caret-down"></i>
                             </a>
+                            <ul class="header__blog-list">
+                                <li class="header__blog-item">
+                                    <a href="#" class="header__blog-item-link">Blog Home</a>
+                                </li>
+                                <li class="header__blog-item">
+                                    <a href="#" class="header__blog-item-link">Blog Post</a>
+                                </li>
+                            </ul>
                         </li>  
-                        <li class="hearder__nav-item">
-                            <a href="#" class="hearder__nav-item-link">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
                                 Portfolio
+                                <i class="header__nav-item-icon fa-solid fa-caret-down"></i>
                             </a>
                         </li>   
                     </ul>
                 </nav>
             </div>
-        </header> -->
+        </header>
         <div class="container">
             <div class="grid">
                 <div class="app__content">
                     <div class="about-filter">
-                        <h1>Our mission is to make<br>building websites easier for<br>everyone.</h1>
-                        <p>Start Bootstrap was built on the idea that quality, functional<br>website templates 
+                        <h1 class="ctent_title">Our mission is to make<br>building websites easier for<br>everyone.</h1>
+                        <p class="ctent_subtitle">Start Bootstrap was built on the idea that quality, functional<br>website templates 
                         and themes should be available to everyone.<br>Use our open source, free products, or support 
                         us by purchasing<br>one of our premium products or services.</p>
-                        <div class="btn">
-                            <small><b>Read Our Story</b></small>
-                            
+                       <a href="#" class="btn">
+                            Read Our Story
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- About section one -->
+        <div class="ab-one">
+            <div class="ab-one__light">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-6">
+                            <img src="./assets/img/600x400.png" alt="600x400" class="ab-one__content-img">
+                        </div>
+                        <div class="grid__column-6">
+                            <div class="content_star">
+                                <h1 class="content_title">Our founding</h1>
+                                <p class="content_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>  
+                            </div>
                         </div>
                     </div>
-                    
+                </div>
+            </div>
+        </div>
+         <!-- About section tow -->
+        <div class="ab-tow">
+            <div class="ab-one__light">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-6">
+                            <div class="content_star">
+                                <h1 class="content_title">Growth & beyond</h1>
+                                <p class="content_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>  
+                            </div>
+                        </div>
+                        <div class="grid__column-6">
+                            <img src="./assets/img/600x400.png" alt="600x400" class="ab-one__content-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About team -->
+        <div class="ab-team">
+            <div class="ab-team__light">
+                <div class="grid">
+                    <div class="grid__title">
+                        <h1 class="ctent_title">Our team</h1>
+                        <p class="ctent_subtitle">Dedicated to quality and your success</p>  
+                    </div>
+                    <div class="grid__row">
+                        <div class="grid__column-3">
+
+                        </div>
+                        <div class="grid__column-3">
+
+                        </div>
+                        <div class="grid__column-3">
+
+                        </div>
+                        <div class="grid__column-3">
+
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
