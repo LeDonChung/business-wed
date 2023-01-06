@@ -1,0 +1,135 @@
+.auth-form{
+    margin: 0 340px;
+}
+
+.auth-form__container{
+    width: 1224px;
+    margin-top: 48px;
+    padding: 48px 342px; 
+    
+    border-radius: 3px;
+    background: var(--while-color);
+    background-color: #f8f9fa;
+}
+
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* icon header */
+.header-icon{
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 16px;
+    background-color: var(--btn-color);
+}
+
+.header-icon-container {
+    font-size: 24px;
+    color: var(--while-color);
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+/* icon header */
+
+/* contenter */
+.header-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content_title {
+    font-size: 3.8rem;
+    text-align: center;
+    position: relative;
+    color: var(--text-color);
+    margin: 10px;
+}
+
+.content_subtitle {
+    font-size: 2rem;
+    text-align: center;
+    color: #69707a;
+    margin-bottom: 24px;
+}
+/* end contenter */
+
+
+
+
+.auth-form__group{
+    margin-top: 24px;
+}
+
+.auth-form__input{
+    width: 100%;
+    height: 58px;
+    padding: 0 20px;
+    font-size: 1.8rem;
+
+    border: 1.5px solid #bfc2c4;
+    outline: none;
+    color: var(--text-color);
+    border-radius: 3px;
+    outline: none;
+}
+
+.auth-form__input:focus{
+    border: 3px solid rgb(23, 152, 238);
+}
+
+.auth-form__input--mess{
+    height: 174px;
+    padding: 0 20px 120px;
+
+}
+
+.auth-form__group-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #609ffc;
+    height: 48px;
+    
+    border-radius: 3px;
+    font-size: 2rem;
+    font-weight: 400px;
+    transition: all ease 0.2s;text-decoration: none;
+    color: var(--while-color);
+
+}  
+
+.auth-form__group-btn:hover{
+    color: #fff;
+    background-color: var(--btn-color);
+    cursor: pointer;
+}
+
+.function {
+    padding: 48px 0;
+}
+
+.grid__column-row {
+    margin-top: 48px;
+}
+
+
+.content_title--row{
+    margin: 0px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.content_subtitle--row{
+    font-size: 1.8rem;
+    color: #69707a;
+    margin: 12px 0 0 0;
+}
+
+
